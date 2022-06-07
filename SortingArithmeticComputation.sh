@@ -7,3 +7,8 @@ read -p "Enter b value: " b
 read -p "Enter c vakue: " c
 
 echo "Values of a= $a, b= $b and c= $c"
+
+#UC2: compute a+b*c
+
+expression1=$((a+b*c))
+echo "Compute of ($a+$b*$c) is: $expression1"

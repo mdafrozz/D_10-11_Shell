@@ -23,3 +23,12 @@ echo "c+a/b = $expression3"
 #UC5: compute a%b+c
 expression4=$((a%b+c))
 echo "a%b+c = $expression4"
+
+#UC6: store the value in dictionary
+declare -A storeData
+storeData[k1]=$expression1
+storeData[k2]=$expression2
+storeData[k3]=$expression3
+storeData[k4]=$expression4
+
+echo "Stored data in dictionary : ${storeData[@]}"

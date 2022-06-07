@@ -9,16 +9,17 @@ read -p "Enter c vakue: " c
 echo "Values of a= $a, b= $b and c= $c"
 
 #UC2: compute a+b*c
-
 expression1=$((a+b*c))
 echo "a+b*c = $expression1"
 
 #uc3: compute a*b+c
-
 expression2=$((a*b+c))
 echo "a*b+c = $expression2"
 
 #UC4: Compute c+a/b
-
 expression3=$((c+a/b))
 echo "c+a/b = $expression3"
+
+#UC5: compute a%b+c
+expression4=$((a%b+c))
+echo "a%b+c = $expression4"

@@ -32,3 +32,7 @@ storeData[k3]=$expression3
 storeData[k4]=$expression4
 
 echo "Stored data in dictionary : ${storeData[@]}"
+
+#UC7 : Read values from dictionary into array
+array=("$expression1" "$expression2" "$expression3" "$expression4")
+echo "Array : ${array[@]}"

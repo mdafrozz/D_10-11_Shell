@@ -17,3 +17,8 @@ echo "a+b*c = $expression1"
 
 expression2=$((a*b+c))
 echo "a*b+c = $expression2"
+
+#UC4: Compute c+a/b
+
+expression3=$((c+a/b))
+echo "c+a/b = $expression3"

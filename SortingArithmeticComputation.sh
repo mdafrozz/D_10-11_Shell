@@ -11,4 +11,9 @@ echo "Values of a= $a, b= $b and c= $c"
 #UC2: compute a+b*c
 
 expression1=$((a+b*c))
-echo "Compute of ($a+$b*$c) is: $expression1"
+echo "a+b*c = $expression1"
+
+#uc3: compute a*b+c
+
+expression2=$((a*b+c))
+echo "a*b+c = $expression2"
